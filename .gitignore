@@ -1,0 +1,36 @@
+# Folder z zależnościami (największy pożeracz miejsca)
+node_modules/
+dist/
+build/
+out/
+.next/
+
+# Logi błędów
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Pliki środowiskowe (TUTAJ SĄ TWOJE SEKRETY!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env.local
+
+# Pliki systemowe i IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Testy i pokrycie kodu
+coverage/
+*.lcov
+
+# Opcjonalne: cache narzędzi
+.eslintcache
+.stylelintcache
+.parcel-cache
+.turbo/

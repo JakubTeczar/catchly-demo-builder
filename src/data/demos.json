@@ -1,0 +1,71 @@
+[
+  {
+    "slug": "xyz-company",
+    "accessId": "xyz-demo-123",
+    "companyName": "XYZ Company",
+    "iframeSrc": "https://www.wikipedia.org",
+    "sidebarMessage": "Dla XYZ Company przygotowaliśmy trzy warianty popupów, które pomagają podnieść wartość koszyka, zbierać więcej leadów i ratować porzucone koszyki. Zobacz, jak mogą wyglądać na Twojej stronie.",
+    "salesPopup": {
+      "brand": "BEAUTIFUL BRAND",
+      "title": "Myślimy, że Ci się spodobają",
+      "subtitle": "Wybrane produkty specjalnie dla Ciebie",
+      "products": [
+        {
+          "id": 1,
+          "name": "Zielona torebka",
+          "price": "$140",
+          "emoji": "👜",
+          "background": "linear-gradient(135deg, #a8d5ba 0%, #c4e4d1 100%)"
+        },
+        {
+          "id": 2,
+          "name": "Gliniana garsonka",
+          "price": "$300",
+          "emoji": "👔",
+          "background": "linear-gradient(135deg, #d4c5a9 0%, #e8dcc4 100%)"
+        }
+      ]
+    },
+    "newsletterPopup": {
+      "title": "Nie wiesz od czego zacząć?",
+      "subtitle": "Zobacz nasze bestsellery:",
+      "note": "Dołącz do newslettera, aby otrzymywać podobne rekomendacje i oferty specjalne.",
+      "products": [
+        {
+          "id": 1,
+          "name": "Prism handbag",
+          "price": "$140",
+          "background": "linear-gradient(135deg, #f3c6aa 0%, #eab08f 100%)"
+        },
+        {
+          "id": 2,
+          "name": "Canary trench coat",
+          "price": "$300",
+          "background": "linear-gradient(135deg, #f7c36c 0%, #f9a826 100%)"
+        },
+        {
+          "id": 3,
+          "name": "Long orange dress",
+          "price": "$140",
+          "background": "linear-gradient(135deg, #f6a58a 0%, #f27b52 100%)"
+        },
+        {
+          "id": 4,
+          "name": "Geometric handbag",
+          "price": "$80",
+          "background": "linear-gradient(135deg, #f5d48b 0%, #f7c25a 100%)"
+        }
+      ]
+    },
+    "limitedPopup": {
+      "brand": "BEAUTIFUL BRAND",
+      "titleLine1": "Your cart is waiting for you.",
+      "titleLine2": "Time is ticking!",
+      "subtitle": "Complete your order now and get 10% off – limited offer.",
+      "ctaLabel": "Take my 10% off",
+      "durationHours": 48
+    }
+  }
+]
+
+
