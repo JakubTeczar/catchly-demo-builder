@@ -1,71 +1,69 @@
 [
-  {
-    "slug": "xyz-company",
-    "accessId": "xyz-demo-123",
-    "companyName": "XYZ Company",
-    "iframeSrc": "https://www.wikipedia.org",
-    "sidebarMessage": "Dla XYZ Company przygotowaliśmy trzy warianty popupów, które pomagają podnieść wartość koszyka, zbierać więcej leadów i ratować porzucone koszyki. Zobacz, jak mogą wyglądać na Twojej stronie.",
-    "salesPopup": {
-      "brand": "BEAUTIFUL BRAND",
-      "title": "Myślimy, że Ci się spodobają",
-      "subtitle": "Wybrane produkty specjalnie dla Ciebie",
-      "products": [
-        {
-          "id": 1,
-          "name": "Zielona torebka",
-          "price": "$140",
-          "emoji": "👜",
-          "background": "linear-gradient(135deg, #a8d5ba 0%, #c4e4d1 100%)"
-        },
-        {
-          "id": 2,
-          "name": "Gliniana garsonka",
-          "price": "$300",
-          "emoji": "👔",
-          "background": "linear-gradient(135deg, #d4c5a9 0%, #e8dcc4 100%)"
-        }
-      ]
-    },
-    "newsletterPopup": {
-      "title": "Nie wiesz od czego zacząć?",
-      "subtitle": "Zobacz nasze bestsellery:",
-      "note": "Dołącz do newslettera, aby otrzymywać podobne rekomendacje i oferty specjalne.",
-      "products": [
-        {
-          "id": 1,
-          "name": "Prism handbag",
-          "price": "$140",
-          "background": "linear-gradient(135deg, #f3c6aa 0%, #eab08f 100%)"
-        },
-        {
-          "id": 2,
-          "name": "Canary trench coat",
-          "price": "$300",
-          "background": "linear-gradient(135deg, #f7c36c 0%, #f9a826 100%)"
-        },
-        {
-          "id": 3,
-          "name": "Long orange dress",
-          "price": "$140",
-          "background": "linear-gradient(135deg, #f6a58a 0%, #f27b52 100%)"
-        },
-        {
-          "id": 4,
-          "name": "Geometric handbag",
-          "price": "$80",
-          "background": "linear-gradient(135deg, #f5d48b 0%, #f7c25a 100%)"
-        }
-      ]
-    },
-    "limitedPopup": {
-      "brand": "BEAUTIFUL BRAND",
-      "titleLine1": "Your cart is waiting for you.",
-      "titleLine2": "Time is ticking!",
-      "subtitle": "Complete your order now and get 10% off – limited offer.",
-      "ctaLabel": "Take my 10% off",
-      "durationHours": 48
+    {
+      "slug": "herbapol-krakow",
+      "accessId": "herbapol-demo-2026",
+      "companyName": "Herbapol",
+      "iframeSrc": "https://sklep.herbapol.krakow.pl/",
+      "sidebarMessage": "<h3>Przygotowaliśmy 3 propozycje popów dopasowanych do Twojej strony</h3> </br></br></p><ul><li><b>Opcja A: Zwiększy sprzedaż nie irytując użytkownika.</b><br>Dlaczego to działa: Użytkownik nie dostaje wyskakującego okienka, które chce zamknąć odruchowo, tylko dostaje subtelną opcję.</li><li><b>Opcja B: Zapis do newslettera, który imituje koszyk.</b><br>Tak aby dając możliwość.</li><li><b>Opcja C: Krótki komunikat z wyprzedażą.</b><br>Dlaczego działa: Sama promocja bazuje na efekcie <b>FOMO</b>. Jeśli ktoś to zobaczy, albo skorzysta teraz, albo nie. Dodatkowo zastosowany licznik czasu",
+      "salesPopup": {
+        "brand": "HERBAPOL W KRAKOWIE",
+        "title": "Natura jest najmądrzejsza",
+        "subtitle": "Ziołowe wsparcie dla Twojego zdrowia:",
+        "products": [
+          {
+            "id": 1,
+            "name": "ACEROLA+ 90szt",
+            "price": "26,09 zł",
+            "emoji": "",
+            "background": "url('https://sklep.herbapol.krakow.pl/userdata/public/gfx/1716/Acerola--90-tabletek.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name": "AMORETABS 60szt",
+            "price": "22,69 zł",
+            "emoji": "",
+            "background": "url('https://sklep.herbapol.krakow.pl/userdata/public/gfx/3009/Amoretabs-60-tabletek.png') no-repeat center center / cover"
+          }
+        ]
+      },
+      "newsletterPopup": {
+        "title": "Potrzebujesz porady?",
+        "subtitle": "Odkryj bogatą ofertę prosto z natury:",
+        "note": "Dołącz do nas i otrzymaj poradnik o naturalnym wspieraniu odporności.",
+        "products": [
+          {
+            "id": 1,
+            "name": "Herbata fix ZIELONA",
+            "price": "10,95 zł",
+            "background": "url('https://sklep.herbapol.krakow.pl/userdata/public/gfx/79c3a7cef65fd6e8b7a1043f2a128403.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name": "Herbata fix CZARNA",
+            "price": "10,34 zł",
+            "background": "url('https://sklep.herbapol.krakow.pl/userdata/public/gfx/a917912c71b732f89ba376c4069fa437.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 3,
+            "name": "CAPITAVIT 100ml",
+            "price": "20,09 zł",
+            "background": "url('https://sklep.herbapol.krakow.pl/userdata/public/gfx/1665/Capitavit-100-ml.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 4,
+            "name": "Olej ŻYWOKOSTOWY z gojnikiem",
+            "price": "22,95 zł",
+            "background": "url('https://sklep.herbapol.krakow.pl/userdata/public/gfx/1886/Olej-Zywokostowy-z-Gojnikiem-100ml.jpg') no-repeat center center / cover"
+          }
+        ]
+      },
+      "limitedPopup": {
+        "brand": "WZORCOWY SKLEP ZIELARSKI",
+        "titleLine1": "Wzmocnij organizm naturalnie.",
+        "titleLine2": "Zadbaj o siebie.",
+        "subtitle": "Skorzystaj z darmowej dostawy na zestawy odpornościowe.",
+        "ctaLabel": "Zobacz zestawy",
+        "durationHours": 72
+      }
     }
-  }
-]
-
-
+  ]

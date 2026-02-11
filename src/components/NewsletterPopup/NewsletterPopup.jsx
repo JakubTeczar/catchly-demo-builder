@@ -50,7 +50,7 @@ function NewsletterPopup({ visible, onClose, onSubmit, config }) {
                   <p className="bestseller-price">{item.price}</p>
                 </div>
                 <button type="button" className="bestseller-cta">
-                  Add to cart
+                  Dodaj do koszyka
                 </button>
               </div>
             </div>

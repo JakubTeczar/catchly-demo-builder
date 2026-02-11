@@ -7,17 +7,17 @@ function BottomActionsBar({ onBenefitsClick, onBookMeetingClick }) {
       <div className="bottom-actions-inner">
         <button
           type="button"
-          className="btn btn-secondary"
+          className="btn visit-website-btn"
           onClick={onBenefitsClick}
         >
-          Jakie są korzyści?
+          Sprawdź naszą stronę
         </button>
         <button
           type="button"
-          className="btn btn-primary"
+          className="btn meeting-btn"
           onClick={onBookMeetingClick}
         >
-          Umów darmowe spotkanie
+          Umów spotkanie
         </button>
       </div>
     </div>

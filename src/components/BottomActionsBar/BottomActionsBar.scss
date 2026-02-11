@@ -14,14 +14,49 @@
   display: flex;
   gap: 0.75rem;
   padding: 0.75rem 1rem;
-  background-color: rgba(15, 23, 42, 0.82);
-  border-radius: 9999px;
-  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.6);
+  background-color: #BBEA00;
+  border-radius: 8px;
+//   box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.6);
 }
 
 .bottom-actions .btn {
-  min-width: 190px;
+    padding: 1rem 2rem;
   white-space: nowrap;
+//   font-weight: 500;
+}
+
+.meeting-btn{
+    background-color: white;
+    color: #1e293b;
+    font-weight: 300;
+    border: none;
+    // border-radius: 9999px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+        background-color: #ebebeb;
+        transition: none;
+    }
+}
+
+.visit-website-btn{
+    background-color: #92b2f200;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    text-decoration: underline;
+    border: none;
+    // border-radius: 9999px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+        background-color: #ffffff00;
+        box-shadow: none;
+        transition: none;
+    }
 }
 
 @media (max-width: 640px) {

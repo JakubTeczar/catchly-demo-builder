@@ -8,9 +8,9 @@ import BottomActionsBar from "../components/BottomActionsBar/BottomActionsBar.js
 import demosConfig from "../data/demos.json";
 
 const DEMO_VARIANTS = [
-  { id: "demo1", label: "Demo 1 - Zwiększenie sprzedaży" },
-  { id: "demo2", label: "Demo 2 - Zapisz się do newslettera" },
-  { id: "demo3", label: "Demo 3 - Promocja limitowana" },
+  { id: "demo1", label: "A) Zwiększenie sprzedaży" },
+  { id: "demo2", label: "B) Zapis do newslettera" },
+  { id: "demo3", label: "C) Promocja limitowana" },
 ];
 
 function DemoPage() {
@@ -102,13 +102,11 @@ function DemoPage() {
   };
 
   const handleBenefitsClick = () => {
-    alert("Informacje o korzyściach będą wyświetlane tutaj.");
+    window.open("https://catchly.pl", "_blank");
   };
 
   const handleBookMeetingClick = () => {
-    alert(
-      "Funkcjonalność umawiania spotkań będzie tutaj zaimplementowana."
-    );
+    window.open("https://calendly.com/dawidklyta5565/catchly-wprowadzanie", "_blank");
   };
 
   const handleNewsletterSubmit = (event) => {

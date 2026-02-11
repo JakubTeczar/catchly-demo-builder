@@ -17,7 +17,10 @@ function Sidebar({
         </header>
 
         <div className="sidebar-body">
-          <p className="description">{sidebarMessage}</p>
+        <div 
+            className="description" 
+            dangerouslySetInnerHTML={{ __html: sidebarMessage }} 
+        />
 
           <div className="demo-buttons">
             {demos.map((demo) => (

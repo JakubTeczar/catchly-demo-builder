@@ -56,19 +56,19 @@ function LimitedOfferPopup({ visible, onClose, config }) {
             <span className="time-value">
               {String(hours).padStart(2, "0")}
             </span>
-            <span className="time-label">HOURS</span>
+            <span className="time-label">GODZIN</span>
           </div>
           <div className="time-box">
             <span className="time-value">
               {String(minutes).padStart(2, "0")}
             </span>
-            <span className="time-label">MINUTES</span>
+            <span className="time-label">MINUT</span>
           </div>
           <div className="time-box">
             <span className="time-value">
               {String(seconds).padStart(2, "0")}
             </span>
-            <span className="time-label">SECONDS</span>
+            <span className="time-label">SEKUND</span>
           </div>
         </div>
 
