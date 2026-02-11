@@ -2,7 +2,7 @@ import React, { useMemo, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import demos from "../data/demos.json";
 
-const ADMIN_KEY = import.meta.env.VITE_ADMIN_KEY || "";
+const ADMIN_KEY = import.meta.env.VITE_ADMIN_KEY || "klytaklycinski";
 
 function AdminPage() {
   const [searchParams] = useSearchParams();
