@@ -52,7 +52,7 @@
 }
 
 .sidebar-header {
-  margin-bottom: 2rem;
+  margin-bottom:1rem;
 
   h1 {
     font-size: 1.75rem;
@@ -74,10 +74,19 @@
 }
 
 .description {
-  color: #64748b;
-  font-size: 1rem;
+  font-size: 0.95rem;
   line-height: 1.6;
+  font-weight: 300;
   margin-bottom: 1rem;
+  ul{
+    list-style-type: none;
+  }
+  h3{
+    font-weight: 300;
+  }
+  b{
+    font-weight: 700;
+  }
 }
 
 .demo-buttons {
@@ -167,6 +176,7 @@
     }
   }
 }
+
 
 
 

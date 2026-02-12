@@ -24,32 +24,61 @@ function useCountdown(initialSeconds) {
 function LimitedOfferPopup({ visible, onClose, config }) {
   if (!config) return null;
 
-  const durationSeconds = (config.durationHours || 48) * 60 * 60;
+  const durationSeconds = (config.durationHours || 2) * 60 * 60;
   const { hours, minutes, seconds } = useCountdown(durationSeconds);
+
+  const onSave = () =>{
+    alert("Realizacja promocji ...")
+  }
 
   return (
     <div className={"limited-popup" + (visible ? " active" : "")}>
       <div className="limited-popup-content">
-        <button
+        {/* <button
           type="button"
           className="limited-close"
           aria-label="Zamknij"
           onClick={onClose}
         >
           ×
-        </button>
+        </button> */}
 
-        {config.brand && (
-          <p className="popup-brand">{config.brand}</p>
-        )}
+        {config.brand && <p className="popup-brand">{config.brand}</p>}
 
         <h2 className="limited-title">
           {config.titleLine1}
           <br />
-          {config.titleLine2}
+          {/* {config.titleLine2} */}
         </h2>
 
-        <p className="limited-subtitle">{config.subtitle}</p>
+        {/* Sekcja Produktu z Cenami */}
+        {(config.productImage || config.productName || config.newPrice) && (
+          <div className="limited-product">
+            {config.productImage && (
+              <img
+                src={config.productImage}
+                alt={config.productName || "Produkt"}
+                className="product-image"
+              />
+            )}
+            
+            {config.productName && (
+              <p className="product-name">{config.productName}</p>
+            )}
+
+            {/* Renderowanie cen, jeśli zostały przekazane w config */}
+            {(config.oldPrice || config.newPrice) && (
+              <div className="limited-pricing">
+                {config.oldPrice && (
+                  <span className="price-old">{config.oldPrice}</span>
+                )}
+                {config.newPrice && (
+                  <span className="price-new">{config.newPrice}</span>
+                )}
+              </div>
+            )}
+          </div>
+        )}
 
         <div className="limited-countdown">
           <div className="time-box">
@@ -72,14 +101,26 @@ function LimitedOfferPopup({ visible, onClose, config }) {
           </div>
         </div>
 
-        <button type="button" className="limited-cta">
-          {config.ctaLabel}
-        </button>
+        <div className="limited-actions">
+          <button 
+            type="button" 
+            className="limited-cta cta-no" 
+            onClick={onClose}
+          >
+            Nie
+          </button>
+          <button 
+            type="button" 
+            className="limited-cta cta-yes"
+            onClick={onClose}
+          >
+            Tak
+          </button>
+        </div>
+        
       </div>
     </div>
   );
 }
 
 export default LimitedOfferPopup;
-
-

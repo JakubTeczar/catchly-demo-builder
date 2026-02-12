@@ -10,7 +10,7 @@ import demosConfig from "../data/demos.json";
 const DEMO_VARIANTS = [
   { id: "demo1", label: "A) Zwiększenie sprzedaży" },
   { id: "demo2", label: "B) Zapis do newslettera" },
-  { id: "demo3", label: "C) Promocja limitowana" },
+  { id: "demo3", label: "C) Promocja czasowa" },
 ];
 
 function DemoPage() {
@@ -170,5 +170,6 @@ function DemoPage() {
 }
 
 export default DemoPage;
+
 
 

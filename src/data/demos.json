@@ -4,7 +4,7 @@
       "accessId": "herbapol-demo-2026",
       "companyName": "Herbapol",
       "iframeSrc": "https://sklep.herbapol.krakow.pl/",
-      "sidebarMessage": "<h3>Przygotowaliśmy 3 propozycje popów dopasowanych do Twojej strony</h3> </br></br></p><ul><li><b>Opcja A: Zwiększy sprzedaż nie irytując użytkownika.</b><br>Dlaczego to działa: Użytkownik nie dostaje wyskakującego okienka, które chce zamknąć odruchowo, tylko dostaje subtelną opcję.</li><li><b>Opcja B: Zapis do newslettera, który imituje koszyk.</b><br>Tak aby dając możliwość.</li><li><b>Opcja C: Krótki komunikat z wyprzedażą.</b><br>Dlaczego działa: Sama promocja bazuje na efekcie <b>FOMO</b>. Jeśli ktoś to zobaczy, albo skorzysta teraz, albo nie. Dodatkowo zastosowany licznik czasu",
+      "sidebarMessage": "<h3>Przygotowaliśmy 3 propozycje dopasowanych popów.</h3> </br></br></p><ul><li><b>Opcja A: Zwiększy sprzedaż nie irytując użytkownika.</b><br>Dlaczego działa: Użytkownik nie dostaje wyskakującego okienka, które chce zamknąć odruchowo, tylko dostaje subtelną opcję.</li></br><li><b>Opcja B: Zapis do newslettera.</b><br>Dlaczego działa: Imitując koszyk zachęca uzytkownika do skorzystania z dobrze zobrazowanej promocji.</li></br><li><b>Opcja C: Wyprzedaż ograniczona czasowo.</b><br>Dlaczego działa: Sama promocja łączy efekt FOMO z brakiem możliwości pominięcia decyzji stawiając jasne pytanie TAK lub NIE. ",
       "salesPopup": {
         "brand": "HERBAPOL W KRAKOWIE",
         "title": "Natura jest najmądrzejsza",
@@ -13,57 +13,59 @@
           {
             "id": 1,
             "name": "ACEROLA+ 90szt",
-            "price": "26,09 zł",
+            "price": "26.09",
             "emoji": "",
             "background": "url('https://sklep.herbapol.krakow.pl/userdata/public/gfx/1716/Acerola--90-tabletek.jpg') no-repeat center center / cover"
           },
           {
             "id": 2,
             "name": "AMORETABS 60szt",
-            "price": "22,69 zł",
+            "price": "22.69",
             "emoji": "",
             "background": "url('https://sklep.herbapol.krakow.pl/userdata/public/gfx/3009/Amoretabs-60-tabletek.png') no-repeat center center / cover"
           }
         ]
       },
       "newsletterPopup": {
-        "title": "Potrzebujesz porady?",
+        "title": "Chcesz promocję 10% ?",
         "subtitle": "Odkryj bogatą ofertę prosto z natury:",
-        "note": "Dołącz do nas i otrzymaj poradnik o naturalnym wspieraniu odporności.",
+        "note": "Dołącz do nas i <b> otrzymaj 10% </b>zniżki.",
         "products": [
           {
             "id": 1,
             "name": "Herbata fix ZIELONA",
-            "price": "10,95 zł",
+            "price": "10.95",
             "background": "url('https://sklep.herbapol.krakow.pl/userdata/public/gfx/79c3a7cef65fd6e8b7a1043f2a128403.jpg') no-repeat center center / cover"
           },
           {
             "id": 2,
             "name": "Herbata fix CZARNA",
-            "price": "10,34 zł",
+            "price": "10.34",
             "background": "url('https://sklep.herbapol.krakow.pl/userdata/public/gfx/a917912c71b732f89ba376c4069fa437.jpg') no-repeat center center / cover"
           },
           {
             "id": 3,
             "name": "CAPITAVIT 100ml",
-            "price": "20,09 zł",
+            "price": "20.09",
             "background": "url('https://sklep.herbapol.krakow.pl/userdata/public/gfx/1665/Capitavit-100-ml.jpg') no-repeat center center / cover"
           },
           {
             "id": 4,
             "name": "Olej ŻYWOKOSTOWY z gojnikiem",
-            "price": "22,95 zł",
+            "price": "22.95",
             "background": "url('https://sklep.herbapol.krakow.pl/userdata/public/gfx/1886/Olej-Zywokostowy-z-Gojnikiem-100ml.jpg') no-repeat center center / cover"
           }
         ]
       },
       "limitedPopup": {
-        "brand": "WZORCOWY SKLEP ZIELARSKI",
-        "titleLine1": "Wzmocnij organizm naturalnie.",
-        "titleLine2": "Zadbaj o siebie.",
-        "subtitle": "Skorzystaj z darmowej dostawy na zestawy odpornościowe.",
+        "brand": "",
+        "titleLine1": "Czy chcesz zapłacić 18,89 zł zamiast 30 zł?",
         "ctaLabel": "Zobacz zestawy",
-        "durationHours": 72
+        "productImage": "https://sklep.herbapol.krakow.pl/userdata/public/gfx/3082/Mieszanka-dla-cukrzykow-100g.png",
+        "productName":"Mieszanka DLA CUKRZYKÓW 100g",
+        "newPrice":"18,89 zł",
+        "oldPrice":"30,00 zł",
+        "durationHours": 4
       }
     }
   ]

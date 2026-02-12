@@ -47,7 +47,9 @@ function NewsletterPopup({ visible, onClose, onSubmit, config }) {
               <div className="bestseller-info">
                 <div className="bestseller-main">
                   <p className="bestseller-name">{item.name}</p>
-                  <p className="bestseller-price">{item.price}</p>
+                  <p className="bestseller-price">
+                    <span>{item.price} zł</span><div>{(item.price*0.9).toFixed(2)}  zł</div>
+                    </p>
                 </div>
                 <button type="button" className="bestseller-cta">
                   Dodaj do koszyka
@@ -73,7 +75,10 @@ function NewsletterPopup({ visible, onClose, onSubmit, config }) {
         </form>
 
         {config.note && (
-          <p className="newsletter-note">{config.note}</p>
+        <p 
+          className="newsletter-note" 
+          dangerouslySetInnerHTML={{ __html: config.note }} 
+        />
         )}
       </div>
     </div>

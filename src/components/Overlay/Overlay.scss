@@ -11,14 +11,17 @@
   transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
     visibility 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
-  border-bottom: 12px solid #BBEA00;
+  border: 12px solid #BBEA00;
   width: calc(100% - 24px);
   height: calc(100% - 24px);
+  width: 100%;
+  height: 100%;
 
   &.active {
     opacity: 1;
     visibility: visible;
   }
 }
+
 
 
