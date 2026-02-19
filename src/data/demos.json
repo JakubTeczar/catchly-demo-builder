@@ -1,71 +1,899 @@
 [
-    {
-      "slug": "herbapol-krakow",
-      "accessId": "herbapol-demo-2026",
-      "companyName": "Herbapol",
-      "iframeSrc": "https://sklep.herbapol.krakow.pl/",
-      "sidebarMessage": "<h3>Przygotowaliśmy 3 propozycje dopasowanych popów.</h3> </br></br></p><ul><li><b>Opcja A: Zwiększenie sprzedaży nie irytując użytkownika.</b><br>Dlaczego działa: Użytkownik nie dostaje wyskakującego okienka, które chce zamknąć odruchowo, tylko dostaje subtelną opcję.</li></br><li><b>Opcja B: Zapis do newslettera.</b><br>Dlaczego działa: Imitując koszyk zachęca uzytkownika do skorzystania z dobrze zobrazowanej promocji.</li></br><li><b>Opcja C: Wyprzedaż ograniczona czasowo.</b><br>Dlaczego działa: Sama promocja łączy efekt FOMO z brakiem możliwości pominięcia decyzji stawiając jasne pytanie TAK lub NIE. ",
+   {
+      "slug": "platinumcandle",
+      "accessId": "platinumcandle-demo-2026-2",
+      "companyName": "Platinumcandle",
+      "iframeSrc": "https://platinumcandle.pl/",
+      "sidebarMessage": "<h3>Przygotowaliśmy 3 propozycje dopasowanych pop-upow.</h3> </br></br></p><ul><li><b>Opcja A: Zwiększenie sprzedaży nie irytując użytkownika.</b><br>Dlaczego działa: Użytkownik nie dostaje wyskakującego okienka, które chce zamknąć odruchowo, tylko dostaje subtelną opcję.</li></br><li><b>Opcja B: Zapis do newslettera.</b><br>Dlaczego działa: Imitując koszyk zachęca uzytkownika do skorzystania z dobrze zobrazowanej promocji.</li></br><li><b>Opcja C: Wyprzedaż ograniczona czasowo.</b><br>Dlaczego działa: Sama promocja łączy efekt FOMO z brakiem możliwości pominięcia decyzji stawiając jasne pytanie TAK lub NIE. ",
       "salesPopup": {
-        "brand": "HERBAPOL W KRAKOWIE",
-        "title": "Natura jest najmądrzejsza",
-        "subtitle": "Ziołowe wsparcie dla Twojego zdrowia:",
+        "brand": "platinumcandle",
+        "title": "Nie tylko świece",
+        "subtitle": "Naturalny wosk sojowy do twojego kominka",
         "products": [
           {
             "id": 1,
-            "name": "ACEROLA+ 90szt",
-            "price": "26.09",
+            "name": "Absynt z whisky i czarnym rumem",
+            "price": "6,99",
             "emoji": "",
-            "background": "url('https://sklep.herbapol.krakow.pl/userdata/public/gfx/1716/Acerola--90-tabletek.jpg') no-repeat center center / cover"
+            "background": "url('https://platinumcandle.pl/public/upload/catalog/product/37/minigallery/thumb_large_1685276476WOSK_ZAPACHOWY_ABSYNT_Z_WHISKY_I_CZARNYM_RUMEM_1-jpg.webp') no-repeat center center / cover"
           },
           {
             "id": 2,
-            "name": "AMORETABS 60szt",
-            "price": "22.69",
+            "name": "Drzewo sandałowe z cedrem i wanilią",
+            "price": "6.99",
             "emoji": "",
-            "background": "url('https://sklep.herbapol.krakow.pl/userdata/public/gfx/3009/Amoretabs-60-tabletek.png') no-repeat center center / cover"
+            "background": "url('https://platinumcandle.pl/public/upload/catalog/product/44/minigallery/thumb_large_1685275519WOSK_ZAPACHOWY_DRZEWO_SANDA_OWE_Z_CEDREM_I_WANILI__1-jpg.webp') no-repeat center center / cover"
           }
         ]
       },
       "newsletterPopup": {
-        "title": "Chcesz promocję 10% ?",
-        "subtitle": "Odkryj bogatą ofertę prosto z natury:",
+        "title": "Zapisz się do newslettera",
+        "subtitle": "Te i inne produkty kupisz u nas taniej",
         "note": "Dołącz do nas i <b> otrzymaj 10% </b>zniżki.",
         "products": [
           {
             "id": 1,
-            "name": "Herbata fix ZIELONA",
-            "price": "10.95",
-            "background": "url('https://sklep.herbapol.krakow.pl/userdata/public/gfx/79c3a7cef65fd6e8b7a1043f2a128403.jpg') no-repeat center center / cover"
+            "name": "Czarna porzeczka z bergamotką",
+            "price": "69.00",
+            "background": "url('https://platinumcandle.pl/public/upload/catalog/product/22/minigallery/thumb_xlarge_1700403986CZARNA_PORZECZKA_Z_BERGAMOTK__220G_4-jpg.webp') no-repeat center center / cover"
           },
           {
             "id": 2,
-            "name": "Herbata fix CZARNA",
-            "price": "10.34",
-            "background": "url('https://sklep.herbapol.krakow.pl/userdata/public/gfx/a917912c71b732f89ba376c4069fa437.jpg') no-repeat center center / cover"
+            "name": "Diamond gift box",
+            "price": "289.99",
+            "background": "url('https://platinumcandle.pl/public/upload/catalog/product/217/minigallery/thumb_large_1698593693DIAMOND_BOX_WIOSENNO_LETNI-jpg.webp') no-repeat center center / cover"
           },
           {
             "id": 3,
-            "name": "CAPITAVIT 100ml",
-            "price": "20.09",
-            "background": "url('https://sklep.herbapol.krakow.pl/userdata/public/gfx/1665/Capitavit-100-ml.jpg') no-repeat center center / cover"
+            "name": "Kominek kwadraty",
+            "price": "39.99",
+            "background": "url('https://platinumcandle.pl/public/upload/catalog/product/67/minigallery/thumb_xlarge_1686215614Kominek_zapachowy_kwadraty-jpg.webp') no-repeat center center / cover"
           },
           {
             "id": 4,
-            "name": "Olej ŻYWOKOSTOWY z gojnikiem",
-            "price": "22.95",
-            "background": "url('https://sklep.herbapol.krakow.pl/userdata/public/gfx/1886/Olej-Zywokostowy-z-Gojnikiem-100ml.jpg') no-repeat center center / cover"
+            "name": "Grzaniec galicyjski",
+            "price": "6.99",
+            "background": "url('https://platinumcandle.pl/public/upload/catalog/product/147/minigallery/thumb_large_1685274772WOSK_ZAPACHOWY_GRZANIEC_GALICYJSKI_1-jpg.webp') no-repeat center center / cover"
           }
         ]
       },
       "limitedPopup": {
         "brand": "",
-        "titleLine1": "Czy chcesz zapłacić 18,89 zł zamiast 30 zł?",
-        "ctaLabel": "Zobacz zestawy",
-        "productImage": "https://sklep.herbapol.krakow.pl/userdata/public/gfx/3082/Mieszanka-dla-cukrzykow-100g.png",
-        "productName":"Mieszanka DLA CUKRZYKÓW 100g",
-        "newPrice":"18,89 zł",
-        "oldPrice":"30,00 zł",
+        "titleLine1": "Czy chcesz zapłacić 19.99 zł zamiast 35 zł?",
+        "ctaLabel": "Zobacz świecę",
+        "productImage": "https://platinumcandle.pl/public/upload/catalog/product/108/minigallery/thumb_xlarge_1700508909drewno_agarowe_3-jpg.webp",
+        "productName":"Świeca sojowa drewno agarowe z wanilią",
+        "newPrice":"19,99 zł",
+        "oldPrice":"35,00 zł",
+        "durationHours": 4
+      }
+    },
+    {
+      "slug": "Świecoholik",
+      "accessId": "swiecoholik-demo-2026-2",
+      "companyName": "Świecoholik",
+      "iframeSrc": "https://www.swiecoholik.pl/",
+      "sidebarMessage": "<h3>Przygotowaliśmy 3 propozycje dopasowanych pop-upow.</h3> </br></br></p><ul><li><b>Opcja A: Zwiększenie sprzedaży nie irytując użytkownika.</b><br>Dlaczego działa: Użytkownik nie dostaje wyskakującego okienka, które chce zamknąć odruchowo, tylko dostaje subtelną opcję.</li></br><li><b>Opcja B: Zapis do newslettera.</b><br>Dlaczego działa: Imitując koszyk zachęca uzytkownika do skorzystania z dobrze zobrazowanej promocji.</li></br><li><b>Opcja C: Wyprzedaż ograniczona czasowo.</b><br>Dlaczego działa: Sama promocja łączy efekt FOMO z brakiem możliwości pominięcia decyzji stawiając jasne pytanie TAK lub NIE. ",
+      "salesPopup": {
+        "brand": "Świecoholik",
+        "title": "Nie tylko świece",
+        "subtitle": "Daj się otulić naturalnym aromatem",
+        "products": [
+          {
+            "id": 1,
+            "name": "Midnight Jasmine Yankee Candle",
+            "price": "36.75 zł",
+            "emoji": "",
+            "background": "url('https://www.swiecoholik.pl/media/products/42fc466a61879247b56fda0f3fa17838/images/thumbnail/large_midnight-jasmine-sloik-maly.jpg?lm=1769516090') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name": "Black Currant & Rose - WoodWick",
+            "price": "93.00 zł",
+            "emoji": "",
+            "background": "url('https://www.swiecoholik.pl/media/products/1d5e6c4099d3b722ebb10869d14f7e1a/images/thumbnail/large_black-currant-rose-swieca-srednia.jpg?lm=1769507519') no-repeat center center / cover"
+          }
+        ]
+      },
+      "newsletterPopup": {
+        "title": "Zapisz się do newslettera",
+        "subtitle": "Te i inne produkty kupisz u nas taniej",
+        "note": "Dołącz do nas i <b> otrzymaj 10% </b>zniżki.",
+        "products": [
+          {
+            "id": 1,
+            "name": "Amethyst Sky - Woodwick Trylogy",
+            "price": "89.25",
+            "background": "url('https://www.swiecoholik.pl/media/products/f03fb584951def1682248dda27cad1b9/images/thumbnail/large_amethyst-sky-swieca-srednia.jpg?lm=1769523019') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name": "Aria Mediterranea- Millefiori",
+            "price": "104.25",
+            "background": "url('https://www.swiecoholik.pl/media/products/8d3aad5e0cb5d054768143350b5e894a/images/thumbnail/large_aria-mediterranea-millefiori-paleczki-zapachowe-100-ml-41mdam.jpg?lm=1769593953') no-repeat center center / cover"
+          },
+          {
+            "id": 3,
+            "name": "Amber & Caviar Lime - Vila Hermanos",
+            "price": "83.30",
+            "background": "url('https://www.swiecoholik.pl/media/products/92e6a275d25e8ef2e42d538d70aea92d/images/thumbnail/large_2020111.jpg?lm=1769587047') no-repeat center center / cover"
+          },
+          {
+            "id": 4,
+            "name": "Ambra & Rosa - Millefiori",
+            "price": "42.75",
+            "background": "url('https://www.swiecoholik.pl/media/products/02569cd02d483030883bb3882c36a0a1/images/thumbnail/large_ambra-rosa-odswiezacz-do-samochodu-car-icon.jpg?lm=1769610760') no-repeat center center / cover"
+          }
+        ]
+      },
+      "limitedPopup": {
+        "brand": "",
+        "titleLine1": "Czy chcesz zapłacić 135 zł zamiast 170 zł?",
+        "ctaLabel": "Zobacz świecę",
+        "productImage": "https://www.swiecoholik.pl/media/products/473ee5b27e3547b993ee243cadd6d9ca/images/thumbnail/large_Rendezvous-duza-ekskluzywna-swieca-zapachowa.jpg?lm=1769622765",
+        "productName":"Rendezvous - Vellutier - duża świeca zapachowa z dwoma knotami",
+        "newPrice":"134,99 zł",
+        "oldPrice":"169,99 zł",
+        "durationHours": 4
+      }
+    },
+    {
+      "slug": "domkove",
+      "accessId": "domkove-demo-2026-2",
+      "companyName": "domkove",
+      "iframeSrc": "https://domkove.pl/",
+      "sidebarMessage": "<h3>Przygotowaliśmy 3 propozycje dopasowanych pop-upow.</h3> </br></br></p><ul><li><b>Opcja A: Zwiększenie sprzedaży nie irytując użytkownika.</b><br>Dlaczego działa: Użytkownik nie dostaje wyskakującego okienka, które chce zamknąć odruchowo, tylko dostaje subtelną opcję.</li></br><li><b>Opcja B: Zapis do newslettera.</b><br>Dlaczego działa: Imitując koszyk zachęca uzytkownika do skorzystania z dobrze zobrazowanej promocji.</li></br><li><b>Opcja C: Wyprzedaż ograniczona czasowo.</b><br>Dlaczego działa: Sama promocja łączy efekt FOMO z brakiem możliwości pominięcia decyzji stawiając jasne pytanie TAK lub NIE. ",
+      "salesPopup": {
+        "brand": "domkove",
+        "title": "Zasługujesz na chwilę relaksu",
+        "subtitle": "Wprowadź do wnętrza niezwykłe aromaty i spokój",
+        "products": [
+          {
+            "id": 1,
+            "name": "Sojowa Świeca Zapachowa - Ciasto Wiśniowe",
+            "price": "49.00 zł",
+            "emoji": "",
+            "background": "url('https://domkove.pl/environment/cache/images/productGfx_2299_500_500/Naturalna-Sojowa-Swieca-Zapachowa---Ciasto-Wisniowe---M.webp?overlay=1') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name": "Sojowa Świeca Zapachowa - Las Sosnowy",
+            "price": "49.00 zł",
+            "emoji": "",
+            "background": "url('https://domkove.pl/environment/cache/images/productGfx_2361_500_500/Naturalna-Sojowa-Swieca-Zapachowa----Las-Sosnowy---M.webp?overlay=1') no-repeat center center / cover"
+          }
+        ]
+      },
+      "newsletterPopup": {
+        "title": "Zapisz się do newslettera",
+        "subtitle": "Te i inne produkty kupisz u nas taniej",
+        "note": "Dołącz do nas i <b> otrzymaj 10% </b>zniżki.",
+        "products": [
+          {
+            "id": 1,
+            "name": "Kadzidła Stożkowe - Biała Szałwia",
+            "price": "19.00",
+            "background": "url('https://domkove.pl/environment/cache/images/productGfx_2263_500_500/Kadzidelka_stozkowe_-_Biala_Szalwia.webp') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name": "Kominek Ceramiczny - Abstract Orange",
+            "price": "39.00",
+            "background": "url('https://domkove.pl/userdata/public/gfx/2535/OB342_003.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 3,
+            "name": "Sojowa Świeca Zapachowa - Czerwona Róża",
+            "price": "49.00",
+            "background": "url('https://domkove.pl/environment/cache/images/productGfx_2309_500_500/Naturalna-Sojowa-Swieca-Zapachowa---Czerwona-Roza---M.webp?overlay=1') no-repeat center center / cover"
+          },
+          {
+            "id": 4,
+            "name": "Lampa do Świec - Beacon Black",
+            "price": "199.00",
+            "background": "url('https://domkove.pl/environment/cache/images/productGfx_2095_500_500/805df5690d8e0ee9a82a23339644fa94.webp?overlay=1') no-repeat center center / cover"
+          }
+        ]
+      },
+      "limitedPopup": {
+        "brand": "",
+        "titleLine1": "Czy chcesz zapłacić 35 zł zamiast 49 zł?",
+        "ctaLabel": "Zobacz świecę",
+        "productImage": "https://domkove.pl/environment/cache/images/productGfx_2291_500_500/Naturalna-Sojowa-Swieca-Zapachowa---Baltycki-Bursztyn---M.webp?overlay=1",
+        "productName":"Sojowa Świeca Zapachowa - Bałtycki Bursztyn",
+        "newPrice":"35.00 zł",
+        "oldPrice":"49.00 zł",
+        "durationHours": 4
+      }
+    },
+    {
+      "slug": "Esoy",
+      "accessId": "esoy-demo-2026-2",
+      "companyName": "Esoy",
+      "iframeSrc": "https://esoy.pl/",
+      "sidebarMessage": "<h3>Przygotowaliśmy 3 propozycje dopasowanych pop-upow.</h3> </br></br></p><ul><li><b>Opcja A: Zwiększenie sprzedaży nie irytując użytkownika.</b><br>Dlaczego działa: Użytkownik nie dostaje wyskakującego okienka, które chce zamknąć odruchowo, tylko dostaje subtelną opcję.</li></br><li><b>Opcja B: Zapis do newslettera.</b><br>Dlaczego działa: Imitując koszyk zachęca uzytkownika do skorzystania z dobrze zobrazowanej promocji.</li></br><li><b>Opcja C: Wyprzedaż ograniczona czasowo.</b><br>Dlaczego działa: Sama promocja łączy efekt FOMO z brakiem możliwości pominięcia decyzji stawiając jasne pytanie TAK lub NIE. ",
+      "salesPopup": {
+        "brand": "Esoy",
+        "title": "Odkryj magię naszych zapachów",
+        "subtitle": "Wypełnij swój świat niesamowitymi aromatami naturalnych świec sojowych",
+        "products": [
+          {
+            "id": 1,
+            "name": "Świeca sojowa TROPICAL",
+            "price": "55.00 zł",
+            "emoji": "",
+            "background": "url('https://esoy.pl/wp-content/uploads/2022/08/zapach-tropikow-w-szkle.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name": "Świeca sojowa LUNA",
+            "price": "55.00 zł",
+            "emoji": "",
+            "background": "url('https://esoy.pl/wp-content/uploads/2022/08/Zapachowa-swieca-sojowa-Luna.jpg') no-repeat center center / cover"
+          }
+        ]
+      },
+      "newsletterPopup": {
+        "title": "Zapisz się do newslettera",
+        "subtitle": "Te i inne produkty kupisz u nas taniej",
+        "note": "Dołącz do nas i <b> otrzymaj 10% </b>zniżki.",
+        "products": [
+          {
+            "id": 1,
+            "name": "Świece dekoracyjne turkusowa zieleń KOSTKA",
+            "price": "25.00",
+            "background": "url('https://esoy.pl/wp-content/uploads/2022/08/Kostka-zielona-1000x1000-1.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name": "Świeca z wosku pszczelego w czarnym szkle",
+            "price": "39.90",
+            "background": "url('https://esoy.pl/wp-content/uploads/2022/08/swieca-pszczela-Rzeszow.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 3,
+            "name": "Świeca sojowa CINNAMON STAR",
+            "price": "55.00",
+            "background": "url('https://esoy.pl/wp-content/uploads/2022/08/swieca-o-zapachu-cynamonu.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 4,
+            "name": "Świeca sojowa PARADISE",
+            "price": "50.00",
+            "background": "url('https://esoy.pl/wp-content/uploads/2022/08/Swieca-sojowa-w-Rzeszowie-zapach-PARADISE.jpg') no-repeat center center / cover"
+          }
+        ]
+      },
+      "limitedPopup": {
+        "brand": "",
+        "titleLine1": "Czy chcesz zapłacić 29.90 zł zamiast 39.90 zł?",
+        "ctaLabel": "Zobacz świecę",
+        "productImage": "https://esoy.pl/wp-content/uploads/2022/08/ekologiczna-swieca-z-wosku-pszczelego-Rzeszow.jpg",
+        "productName":"Świeca z wosku pszczelego w bezbarwnym szkle",
+        "newPrice":"29.90 zł",
+        "oldPrice":"39.90 zł",
+        "durationHours": 4
+      }
+    },
+    {
+      "slug": "marcinczop",
+      "accessId": "marcinczop-demo-2026-2",
+      "companyName": "marcinczop",
+      "iframeSrc": "https://marcinczop.com/",
+      "sidebarMessage": "<h3>Przygotowaliśmy 3 propozycje dopasowanych pop-upow.</h3> </br></br></p><ul><li><b>Opcja A: Zwiększenie sprzedaży nie irytując użytkownika.</b><br>Dlaczego działa: Użytkownik nie dostaje wyskakującego okienka, które chce zamknąć odruchowo, tylko dostaje subtelną opcję.</li></br><li><b>Opcja B: Zapis do newslettera.</b><br>Dlaczego działa: Imitując koszyk zachęca uzytkownika do skorzystania z dobrze zobrazowanej promocji.</li></br><li><b>Opcja C: Wyprzedaż ograniczona czasowo.</b><br>Dlaczego działa: Sama promocja łączy efekt FOMO z brakiem możliwości pominięcia decyzji stawiając jasne pytanie TAK lub NIE. ",
+      "salesPopup": {
+        "brand": "marcinczop",
+        "title": "Poczuj radość z noszenia prawdziwego rzemiosła",
+        "subtitle": "Zobacz projekty, które powstały z miłości do detalu – od klasyki po nowoczesny design",
+        "products": [
+          {
+            "id": 1,
+            "name": "DEEP SEA",
+            "price": "4150 zł",
+            "emoji": "",
+            "background": "url('https://marcinczop.com/wp-content/uploads/2019/07/L3A7470_deep_sea_03.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name": "DIAMOND PRINCE",
+            "price": "4100 zł",
+            "emoji": "",
+            "background": "url('https://marcinczop.com/wp-content/uploads/2023/09/pierscionek-z-oliwinem-assher-i-brylantami-105746-scaled.jpg') no-repeat center center / cover"
+          }
+        ]
+      },
+      "newsletterPopup": {
+        "title": "Zapisz się do newslettera",
+        "subtitle": "Te i inne produkty kupisz u nas taniej",
+        "note": "Dołącz do nas i <b> otrzymaj 10% </b>zniżki.",
+        "products": [
+          {
+            "id": 1,
+            "name": "MOON 3",
+            "price": "3300",
+            "background": "url('https://marcinczop.com/wp-content/uploads/2019/12/20191127_114224_WWW.jpg.webp') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name": "Diamond gift box",
+            "price": "289.99",
+            "background": "url('https://platinumcandle.pl/public/upload/catalog/product/217/minigallery/thumb_large_1698593693DIAMOND_BOX_WIOSENNO_LETNI-jpg.webp') no-repeat center center / cover"
+          },
+          {
+            "id": 3,
+            "name": "PARROT",
+            "price": "5800",
+            "background": "url('https://marcinczop.com/wp-content/uploads/2019/12/20191027_143744_01-pdf.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 4,
+            "name": "FRILL",
+            "price": "2400",
+            "background": "url('https://marcinczop.com/wp-content/uploads/2021/08/Frill-damski-zloty-sygnet-w-stylu-vintage-proba-0.585.jpg') no-repeat center center / cover"
+          }
+        ]
+      },
+      "limitedPopup": {
+        "brand": "",
+        "titleLine1": "Czy chcesz zapłacić 3600 zł zamiast 3750 zł?",
+        "ctaLabel": "Zobacz pierścionek",
+        "productImage": "https://marcinczop.com/wp-content/uploads/2021/09/pierscionek-zareczynowy-z-morganitem-i-brylantami-rozowe-zloto-gp1.jpg",
+        "productName":"Pierścionek zaręczynowy z morganitem i brylantami",
+        "newPrice":"3600 zł",
+        "oldPrice":"3750 zł",
+        "durationHours": 4
+      }
+    },
+    {
+      "slug": "Organique",
+      "accessId": "organique-demo-2026-2",
+      "companyName": "Organique",
+      "iframeSrc": "https://www.organique.pl/",
+      "sidebarMessage": "<h3>Przygotowaliśmy 3 propozycje dopasowanych pop-upow.</h3> </br></br></p><ul><li><b>Opcja A: Zwiększenie sprzedaży nie irytując użytkownika.</b><br>Dlaczego działa: Użytkownik nie dostaje wyskakującego okienka, które chce zamknąć odruchowo, tylko dostaje subtelną opcję.</li></br><li><b>Opcja B: Zapis do newslettera.</b><br>Dlaczego działa: Imitując koszyk zachęca uzytkownika do skorzystania z dobrze zobrazowanej promocji.</li></br><li><b>Opcja C: Wyprzedaż ograniczona czasowo.</b><br>Dlaczego działa: Sama promocja łączy efekt FOMO z brakiem możliwości pominięcia decyzji stawiając jasne pytanie TAK lub NIE. ",
+      "salesPopup": {
+        "brand": "Organique",
+        "title": "Poczuj moc natury na własnej skórze",
+        "subtitle": "Sięgnij po inspirowane naturą, ręcznie tworzone formuły, bezpieczne nawet dla wrażliwej cery",
+        "products": [
+          {
+            "id": 1,
+            "name": "Ujędrniające serum do twarzy Eternal Gold",
+            "price": "129,90 zł",
+            "emoji": "",
+            "background": "url('https://www.organique.pl/17335-large_default/ujedrniajace-serum-do-twarzy-eternal-gold.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name":  "Rozświetlający suchy olejek do ciała Eternal Gold",
+            "price": "99,90 zł",
+            "emoji": "",
+            "background": "url('https://www.organique.pl/17329-large_default/rozswietlajacy-suchy-olejek-do-ciala.jpg') no-repeat center center / cover"
+          }
+        ]
+      },
+      "newsletterPopup": {
+        "title": "Zapisz się do newslettera",
+        "subtitle": "Te i inne produkty kupisz u nas taniej",
+        "note": "Dołącz do nas i <b> otrzymaj 10% </b>zniżki.",
+        "products": [
+          {
+            "id": 1,
+            "name": "Nawliajacy krem do twarzy pumpkin",
+            "price": "109.90",
+            "background": "url('https://www.organique.pl/16605-large_default/krem-do-twarzy-pumpkin-terapia-nawilzajaca.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name": "Emolientowy krem do rąk bloom esence",
+            "price": "34.90",
+            "background": "url('https://www.organique.pl/16178-large_default/bloom-essence-hand-cream-70ml.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 3,
+            "name": "Balsam z masłem shea Black Orchid",
+            "price": "79.90",
+            "background": "url('https://www.organique.pl/17145-large_default/shea-butter-body-balm-sf-pl-200-ml-black-orchid-czarna-orchidea.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 4,
+            "name": "Mydło naturalnie pielęgnujące Bloom Essence",
+            "price": "24.90",
+            "background": "url('https://www.organique.pl/16905-large_default/mydlo-naturalnie-pielegnujace-bloom-essence.jpg') no-repeat center center / cover"
+          }
+        ]
+      },
+      "limitedPopup": {
+        "brand": "",
+        "titleLine1": "Czy chcesz zapłacić 156 zł zamiast 170 zł?",
+        "ctaLabel": "Zobacz pierścionek",
+        "productImage": "https://www.organique.pl/17464-large_default/zestaw-prezentowy-wave-pottery.jpg",
+        "productName":"Limitowany zestaw prezentowy ORGANIQUE X WAVE POTTERY",
+        "newPrice":"156,60 zł",
+        "oldPrice":"170,60 zł",
+        "durationHours": 4
+      }
+    },
+    {
+      "slug": "Zerosklep",
+      "accessId": "zerosklep-demo-2026-2",
+      "companyName": "Zerosklep",
+      "iframeSrc": "https://zerosklep.pl/",
+      "sidebarMessage": "<h3>Przygotowaliśmy 3 propozycje dopasowanych pop-upow.</h3> </br></br></p><ul><li><b>Opcja A: Zwiększenie sprzedaży nie irytując użytkownika.</b><br>Dlaczego działa: Użytkownik nie dostaje wyskakującego okienka, które chce zamknąć odruchowo, tylko dostaje subtelną opcję.</li></br><li><b>Opcja B: Zapis do newslettera.</b><br>Dlaczego działa: Imitując koszyk zachęca uzytkownika do skorzystania z dobrze zobrazowanej promocji.</li></br><li><b>Opcja C: Wyprzedaż ograniczona czasowo.</b><br>Dlaczego działa: Sama promocja łączy efekt FOMO z brakiem możliwości pominięcia decyzji stawiając jasne pytanie TAK lub NIE. ",
+      "salesPopup": {
+        "brand": "Zerosklep",
+        "title": "Bądź częścią Zera, nie bądź zerem",
+        "subtitle": "Zero ściemy. Tylko konkretny merch, który warto mieć",
+        "products": [
+          {
+            "id": 1,
+            "name": "BLUZA Z KAPTUREM NIEBIESKA",
+            "price": "279,00 zł",
+            "emoji": "",
+            "background": "url('https://zerosklep.pl/139-large_default/bluza-z-kapturem-niebieska-logo-pluszowe.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name":  "T-SHIRT CZARNY LOGO HD PRINT",
+            "price": "139,00 zł",
+            "emoji": "",
+            "background": "url('https://zerosklep.pl/146-large_default/t-shirt-czarny-logo-hd-print.jpg') no-repeat center center / cover"
+          }
+        ]
+      },
+      "newsletterPopup": {
+        "title": "Zapisz się do newslettera",
+        "subtitle": "Te i inne produkty kupisz u nas taniej",
+        "note": "Dołącz do nas i <b> otrzymaj 10% </b>zniżki.",
+        "products": [
+          {
+            "id": 1,
+            "name": "KUBEK ZERO",
+            "price": "49.00",
+            "background": "url('https://zerosklep.pl/155-large_default/kubek-zero.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name": "BLUZA Z KAPTUREM CZARNA",
+            "price": "299.90",
+            "background": "url('https://zerosklep.pl/134-large_default/bluza-z-kapturem-czarna-logo-tloczone.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 3,
+            "name": "T-SHIRT BIAŁY VAMOS",
+            "price": "139.00",
+            "background": "url('https://zerosklep.pl/153-large_default/t-shirt-bialy-vamos.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 4,
+            "name": "ZESTAW 3X SKARPETY",
+            "price": "99.00",
+            "background": "url('https://zerosklep.pl/194-large_default/zestaw-3x-skarpety.jpg') no-repeat center center / cover"
+          }
+        ]
+      },
+      "limitedPopup": {
+        "brand": "",
+        "titleLine1": "Czy chcesz zapłacić 39 zł zamiast 49 zł?",
+        "ctaLabel": "Zobacz kubek",
+        "productImage": "https://zerosklep.pl/188-large_default/kubek-monochromatyczny.jpg",
+        "productName":"KUBEK MONOCHROMATYCZNY",
+        "newPrice":"39.00 zł",
+        "oldPrice":"49.00 zł",
+        "durationHours": 4
+      }
+    },
+    {
+      "slug": "farmona",
+      "accessId": "farmona-demo-2026-2",
+      "companyName": "farmona",
+      "iframeSrc": "https://farmona.pl/sklep/",
+      "sidebarMessage": "<h3>Przygotowaliśmy 3 propozycje dopasowanych pop-upow.</h3> </br></br></p><ul><li><b>Opcja A: Zwiększenie sprzedaży nie irytując użytkownika.</b><br>Dlaczego działa: Użytkownik nie dostaje wyskakującego okienka, które chce zamknąć odruchowo, tylko dostaje subtelną opcję.</li></br><li><b>Opcja B: Zapis do newslettera.</b><br>Dlaczego działa: Imitując koszyk zachęca uzytkownika do skorzystania z dobrze zobrazowanej promocji.</li></br><li><b>Opcja C: Wyprzedaż ograniczona czasowo.</b><br>Dlaczego działa: Sama promocja łączy efekt FOMO z brakiem możliwości pominięcia decyzji stawiając jasne pytanie TAK lub NIE. ",
+      "salesPopup": {
+        "brand": "farmona",
+        "title": "Piękno i zdrowie",
+        "subtitle": "Najlepsze kosmetyki dla Twojej skóry i włosów",
+        "products": [
+          {
+            "id": 1,
+            "name": "Maska Regenerująca do włosów przesuszonych",
+            "price": "19,99 zł",
+            "emoji": "",
+            "background": "url('https://farmona.pl/sklep/media/catalog/product/cache/ab063817e2c523f72d91b43645f9d853/i/d/idee-derm-maska.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name":  "Salted Caramel żel do kąpieli i pod prysznic",
+            "price": "14,99 zł",
+            "emoji": "",
+            "background": "url('https://farmona.pl/sklep/media/catalog/product/cache/ab063817e2c523f72d91b43645f9d853/M/A/MAG0052.jpg') no-repeat center center / cover"
+          }
+        ]
+      },
+      "newsletterPopup": {
+        "title": "Zapisz się do newslettera",
+        "subtitle": "Te i inne produkty kupisz u nas taniej",
+        "note": "Dołącz do nas i <b> otrzymaj 10% </b>zniżki.",
+        "products": [
+          {
+            "id": 1,
+            "name": "Kremo-maska do ciała i stóp",
+            "price": "70.80",
+            "background": "url('https://farmona.pl/sklep/media/catalog/product/cache/ab063817e2c523f72d91b43645f9d853/k/r/kremo-maska_arbuzowa_skin_cream_mask_20251216_085955.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name": "Multifunkcyjny żel micelarny do demakijażu",
+            "price": "56.40",
+            "background": "url('https://farmona.pl/sklep/media/catalog/product/cache/ab063817e2c523f72d91b43645f9d853/P/R/PRO7041.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 3,
+            "name": "Kojący krem nawilżający do stóp",
+            "price": "16.99",
+            "background": "url('https://farmona.pl/sklep/media/catalog/product/cache/ab063817e2c523f72d91b43645f9d853/1/9/19.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 4,
+            "name": "Wygładzająca odżywka regenerująca",
+            "price": "24.99",
+            "background": "url('https://farmona.pl/sklep/media/catalog/product/cache/ab063817e2c523f72d91b43645f9d853/o/d/odzywka-regenerujaca-do-wlosow-radical-hairclinic_20250610_173226.jpg') no-repeat center center / cover"
+          }
+        ]
+      },
+      "limitedPopup": {
+        "brand": "",
+        "titleLine1": "Czy chcesz zapłacić 235 zł zamiast 260 zł?",
+        "ctaLabel": "Zobacz zestaw",
+        "productImage": "https://farmona.pl/sklep/media/catalog/product/cache/ab063817e2c523f72d91b43645f9d853/z/e/zestaw-do-twarzy-retin-gold.jpg",
+        "productName":"Beauty Set - kuracja anti-age do twarzy",
+        "newPrice":"235.00 zł",
+        "oldPrice":"260.00 zł",
+        "durationHours": 4
+      }
+    },
+    {
+      "slug": "uFranciszka",
+      "accessId": "ufranciszka-demo-2026-2",
+      "companyName": "uFranciszka",
+      "iframeSrc": "https://ufranciszka.pl/",
+      "sidebarMessage": "<h3>Przygotowaliśmy 3 propozycje dopasowanych pop-upow.</h3> </br></br></p><ul><li><b>Opcja A: Zwiększenie sprzedaży nie irytując użytkownika.</b><br>Dlaczego działa: Użytkownik nie dostaje wyskakującego okienka, które chce zamknąć odruchowo, tylko dostaje subtelną opcję.</li></br><li><b>Opcja B: Zapis do newslettera.</b><br>Dlaczego działa: Imitując koszyk zachęca uzytkownika do skorzystania z dobrze zobrazowanej promocji.</li></br><li><b>Opcja C: Wyprzedaż ograniczona czasowo.</b><br>Dlaczego działa: Sama promocja łączy efekt FOMO z brakiem możliwości pominięcia decyzji stawiając jasne pytanie TAK lub NIE. ",
+      "salesPopup": {
+        "brand": "uFranciszka",
+        "title": "Zdrowie z Natury",
+        "subtitle": "Zadbaj o odporność naturalnie",
+        "products": [
+          {
+            "id": 1,
+            "name": "Pianka do mycia ciała GAIA",
+            "price": "64.00 zł",
+            "emoji": "",
+            "background": "url('https://ufranciszka.pl/hpeciai/5e03043e0c8daf8495250945253ac54a/pol_pm_Pianka-do-mycia-ciala-GAIA-1087_1.png') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name":  "Olejek z opuncji figowej",
+            "price": "125.00 zł",
+            "emoji": "",
+            "background": "url('https://ufranciszka.pl/hpeciai/f76d47919f140e9e4adf13d86916bde9/pol_pm_Olejek-z-opuncji-figowej-1361_1.png') no-repeat center center / cover"
+          }
+        ]
+      },
+      "newsletterPopup": {
+        "title": "Zapisz się do newslettera",
+        "subtitle": "Te i inne produkty kupisz u nas taniej",
+        "note": "Dołącz do nas i <b> otrzymaj 10% </b>zniżki.",
+        "products": [
+          {
+            "id": 1,
+            "name": "Tropikalne mango mydło glicerynowe",
+            "price": "29.70",
+            "background": "url('https://ufranciszka.pl/hpeciai/a44d8913dea9f334ce1e0a14c86e551e/pol_pm_Tropikalne-mango-mydlo-glicerynowe-1368_1.png') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name": "Masło jojoba pure",
+            "price": "85.00",
+            "background": "url('https://ufranciszka.pl/pl/products/hpeciai/a6e8d763513188614e2181d25031a34f/pol_il_Maslo-jojoba-pure-1144.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 3,
+            "name": "Żel do mycia twarzy ARGAN+",
+            "price": "49.00",
+            "background": "url('https://ufranciszka.pl/hpeciai/530ba2cf809381324dc898b54fc582a8/pol_pm_Zel-do-mycia-twarzy-ARGAN-1385_2.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 4,
+            "name": "Bella olejek do pielęgnacji i masażu z 24k złotem",
+            "price": "89.00",
+            "background": "url('https://ufranciszka.pl/hpeciai/2006274f9f50d72b9cb90cfaa63ec867/pol_pm_Bella-olejek-do-pielegnacji-i-masazu-z-24k-zlotem-1357_4.png') no-repeat center center / cover"
+          }
+        ]
+      },
+      "limitedPopup": {
+        "brand": "",
+        "titleLine1": "Czy chcesz zapłacić 246 zł zamiast 266 zł?",
+        "ctaLabel": "Zobacz zestaw",
+        "productImage": "https://farmona.pl/sklep/media/catalog/product/cache/ab063817e2c523f72d91b43645f9d853/z/e/zestaw-do-twarzy-retin-gold.jpg",
+        "productName":"Zestaw prezentowy z olejkiem Gaia w pudełku",
+        "newPrice":"246.00 zł",
+        "oldPrice":"266.00 zł",
+        "durationHours": 4
+      }
+    },
+    {
+      "slug": "la-le",
+      "accessId": "la-le-demo-2026-2",
+      "companyName": "la-le",
+      "iframeSrc": "https://la-le.pl/",
+      "sidebarMessage": "<h3>Przygotowaliśmy 3 propozycje dopasowanych pop-upow.</h3> </br></br></p><ul><li><b>Opcja A: Zwiększenie sprzedaży nie irytując użytkownika.</b><br>Dlaczego działa: Użytkownik nie dostaje wyskakującego okienka, które chce zamknąć odruchowo, tylko dostaje subtelną opcję.</li></br><li><b>Opcja B: Zapis do newslettera.</b><br>Dlaczego działa: Imitując koszyk zachęca uzytkownika do skorzystania z dobrze zobrazowanej promocji.</li></br><li><b>Opcja C: Wyprzedaż ograniczona czasowo.</b><br>Dlaczego działa: Sama promocja łączy efekt FOMO z brakiem możliwości pominięcia decyzji stawiając jasne pytanie TAK lub NIE. ",
+      "salesPopup": {
+        "brand": "la-le",
+        "title": "Kosmetyki kręcone ręcznie, z pasją i wiedzą",
+        "subtitle": "Odkryj proste, skuteczne receptury, które pokocha Twoja skóra",
+        "products": [
+          {
+            "id": 1,
+            "name": "Wcierka do włosów",
+            "price": "17,75 zł",
+            "emoji": "",
+            "background": "url('https://la-le.pl/environment/cache/images/productGfx_1352_0_0/ROZMARYN.webp') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name":  "Masło kawowe pod oczy",
+            "price": "20,80 zł",
+            "emoji": "",
+            "background": "url('https://la-le.pl/environment/cache/images/productGfx_1452_0_0/KAWA_MALA.webp') no-repeat center center / cover"
+          }
+        ]
+      },
+      "newsletterPopup": {
+        "title": "Zapisz się do newslettera",
+        "subtitle": "Te i inne produkty kupisz u nas taniej",
+        "note": "Dołącz do nas i <b> otrzymaj 10% </b>zniżki.",
+        "products": [
+          {
+            "id": 1,
+            "name": "LA-LE COSMEDIC SZAMPON REGENERUJĄCY ZIOŁOWY",
+            "price": "35.75",
+            "background": "url('https://la-le.pl/environment/cache/images/productGfx_1533_0_0/4121abaaf1a9822246bb781f412f2e86.webp') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name": "Japan Nature Balsam do ciała borówka",
+            "price": "31.85",
+            "background": "url('https://la-le.pl/environment/cache/images/productGfx_1438_0_0/japan_balsam_borowka.webp') no-repeat center center / cover"
+          },
+          {
+            "id": 3,
+            "name": "Pomada do włosów i brody No.1",
+            "price": "19.50",
+            "background": "url('https://la-le.pl/environment/cache/images/productGfx_1508_0_0/pomada_1.webp') no-repeat center center / cover"
+          },
+          {
+            "id": 4,
+            "name": "ACNE - Peeling kwasowy",
+            "price": "33.80",
+            "background": "url('https://la-le.pl/environment/cache/images/productGfx_1257_0_0/ACNE-Peeling-kwasowy-PACKSHOT.webp') no-repeat center center / cover"
+          }
+        ]
+      },
+      "limitedPopup": {
+        "brand": "",
+        "titleLine1": "Czy chcesz zapłacić 110 zł zamiast 120 zł?",
+        "ctaLabel": "Zobacz zestaw",
+        "productImage": "https://la-le.pl/environment/cache/images/productGfx_1123_0_0/zestaw3.webp",
+        "productName":"ZESTAW JELLY - ANTIAGING",
+        "newPrice":"109,60 zł",
+        "oldPrice":"119,60 zł",
+        "durationHours": 4
+      }
+    },
+    {
+      "slug": "mygiftdna",
+      "accessId": "mygiftdna-demo-2026-2",
+      "companyName": "mygiftdna",
+      "iframeSrc": "https://mygiftdna.pl/",
+      "sidebarMessage": "<h3>Przygotowaliśmy 3 propozycje dopasowanych pop-upow.</h3> </br></br></p><ul><li><b>Opcja A: Zwiększenie sprzedaży nie irytując użytkownika.</b><br>Dlaczego działa: Użytkownik nie dostaje wyskakującego okienka, które chce zamknąć odruchowo, tylko dostaje subtelną opcję.</li></br><li><b>Opcja B: Zapis do newslettera.</b><br>Dlaczego działa: Imitując koszyk zachęca uzytkownika do skorzystania z dobrze zobrazowanej promocji.</li></br><li><b>Opcja C: Wyprzedaż ograniczona czasowo.</b><br>Dlaczego działa: Sama promocja łączy efekt FOMO z brakiem możliwości pominięcia decyzji stawiając jasne pytanie TAK lub NIE. ",
+      "salesPopup": {
+        "brand": "la-le",
+        "title": "Prezent, który zostanie w sercu na dłużej",
+        "subtitle": "Zaprojektuj prezent, który idealnie pasuje do bliskiej Ci osoby",
+        "products": [
+          {
+            "id": 1,
+            "name": "Imię i Nazwisko - Kalendarz 2026",
+            "price": "39.99 zł",
+            "emoji": "",
+            "background": "url('https://mygiftdna.pl/img/attachments/products/big/imie_i_nazwisko_kalendarz_2025_68b97f79-ec40-4718-af4c-45570a00d311.4-PL.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name":  "Ona się nie starzeje - Wieczna róża w szkle",
+            "price": "114,99 zł",
+            "emoji": "",
+            "background": "url('https://mygiftdna.pl/img/attachments/products/big/ona_sie_nie_starzeje_wieczna_roza_w_szkle_68da3d0a-8748-46a6-ad80-43310a00d311.main-PL.jpg') no-repeat center center / cover"
+          }
+        ]
+      },
+      "newsletterPopup": {
+        "title": "Zapisz się do newslettera",
+        "subtitle": "Te i inne produkty kupisz u nas taniej",
+        "note": "Dołącz do nas i <b> otrzymaj 10% </b>zniżki.",
+        "products": [
+          {
+            "id": 1,
+            "name": "Projekt własny - Filiżanka ze spodkiem",
+            "price": "61.99",
+            "background": "url('https://mygiftdna.pl/img/attachments/products/big/projekt_wlasny_filizanka_ze_spodkiem_613b194a-98b8-49af-b2c3-577005bb3706.main.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name": "Zdjęcie w sercu - Bluza męska czarna z kapturem",
+            "price": "199.99",
+            "background": "url('https://mygiftdna.pl/img/attachments/products/big/zdjecie_w_sercu_bluza_meska_czarna_z_kapturem_6720f0d8-9e44-4bb9-908e-474e0a00d305.main-PL.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 3,
+            "name": "Monogram + imię - Zapalniczka z grawerem",
+            "price": "44.99",
+            "background": "url('https://mygiftdna.pl/img/attachments/products/big/monogram_imie_zapalniczka_z_grawerem_5c754dbf-ff7c-4354-8040-bfab05bb3706.Zapalniczka%202.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 4,
+            "name": "Serce + data - Pluszak",
+            "price": "49.99",
+            "background": "url('https://mygiftdna.pl/img/attachments/products/big/serce_data_pluszak_5c879043-bdf0-4fc1-a95a-14b505bb3706.Krolik.jpg') no-repeat center center / cover"
+          }
+        ]
+      },
+      "limitedPopup": {
+        "brand": "",
+        "titleLine1": "Czy chcesz zapłacić 120 zł zamiast 130 zł?",
+        "ctaLabel": "Zobacz prezent",
+        "productImage": "https://mygiftdna.pl/img/attachments/products/big/szczescie_wydruk_na_szkle_akrylowym_z_podstawka_led_691f1a01-b0cc-42b5-98d0-472e0a00d311.main-PL.jpg",
+        "productName":"Szczęście - Wydruk na szkle akrylowym z podstawką led",
+        "newPrice":"119.99 zł",
+        "oldPrice":"129.99 zł",
+        "durationHours": 4
+      }
+    },
+    {
+      "slug": "4szpaki",
+      "accessId": "4szpaki-demo-2026-2",
+      "companyName": "4szpaki",
+      "iframeSrc": "https://4szpaki.pl/",
+      "sidebarMessage": "<h3>Przygotowaliśmy 3 propozycje dopasowanych pop-upow.</h3> </br></br></p><ul><li><b>Opcja A: Zwiększenie sprzedaży nie irytując użytkownika.</b><br>Dlaczego działa: Użytkownik nie dostaje wyskakującego okienka, które chce zamknąć odruchowo, tylko dostaje subtelną opcję.</li></br><li><b>Opcja B: Zapis do newslettera.</b><br>Dlaczego działa: Imitując koszyk zachęca uzytkownika do skorzystania z dobrze zobrazowanej promocji.</li></br><li><b>Opcja C: Wyprzedaż ograniczona czasowo.</b><br>Dlaczego działa: Sama promocja łączy efekt FOMO z brakiem możliwości pominięcia decyzji stawiając jasne pytanie TAK lub NIE. ",
+      "salesPopup": {
+        "brand": "4szpaki",
+        "title": "Pierwszy raz ze Szpakami?",
+        "subtitle": "Odkryj kosmetyki, które działają dzięki naturze",
+        "products": [
+          {
+            "id": 1,
+            "name": "Normalizujący krem do twarzy - Leśny",
+            "price": "89.00 zł",
+            "emoji": "",
+            "background": "url('https://4szpaki.pl/media/catalog/product/cache/ca5f0d874ee135b3125d978149c0417c/l/e/lesny_krem_pl_1.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name":  "Morskie - naturalne mydło w kostce",
+            "price": "23.00 zł",
+            "emoji": "",
+            "background": "url('https://4szpaki.pl/media/catalog/product/cache/ca5f0d874ee135b3125d978149c0417c/4/s/4szpaki_sklep_pl_9259_1.jpg') no-repeat center center / cover"
+          }
+        ]
+      },
+      "newsletterPopup": {
+        "title": "Zapisz się do newslettera",
+        "subtitle": "Te i inne produkty kupisz u nas taniej",
+        "note": "Dołącz do nas i <b> otrzymaj 10% </b>zniżki.",
+        "products": [
+          {
+            "id": 1,
+            "name": "Ochronne serum na końcówki - Leśna Róża",
+            "price": "50.00",
+            "background": "url('https://4szpaki.pl/media/catalog/product/cache/ca5f0d874ee135b3125d978149c0417c/m/y/mydlarnia-4szpaki-ochronne-serum-na-koncowki-lesna-roza.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name": "Nawilżająca maska do włosów - Chmielowa",
+            "price": "89.00",
+            "background": "url('https://4szpaki.pl/media/catalog/product/cache/ca5f0d874ee135b3125d978149c0417c/m/y/mydlarnia-4szpaki-nawilzajaca-maska-do-wlosow-chmielowa.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 3,
+            "name": "Superkrem - odżywczy krem uniwersalny",
+            "price": "59.00",
+            "background": "url('https://4szpaki.pl/media/catalog/product/cache/ca5f0d874ee135b3125d978149c0417c/4/s/4szpaki_sklep_pl_4987_super_krem_ok_1.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 4,
+            "name": "Miś - szampon w kostce od 1. dnia życia",
+            "price": "39.00",
+            "background": "url('https://4szpaki.pl/media/catalog/product/cache/ca5f0d874ee135b3125d978149c0417c/3/0/3000x3000_szamponmi_1_.jpg') no-repeat center center / cover"
+          }
+        ]
+      },
+      "limitedPopup": {
+        "brand": "",
+        "titleLine1": "Czy chcesz zapłacić 55 zł zamiast 69 zł?",
+        "ctaLabel": "Zobacz zestaw",
+        "productImage": "https://4szpaki.pl/media/catalog/product/cache/ca5f0d874ee135b3125d978149c0417c/z/e/zestaw_travel_produkty_2_.jpg",
+        "productName":"Travel Set aka Podróż Zestaw",
+        "newPrice":"55.00 zł",
+        "oldPrice":"69.00 zł",
+        "durationHours": 4
+      }
+    },
+    {
+      "slug": "Panlis",
+      "accessId": "Panlii-demo-2026-2",
+      "companyName": "Panlis",
+      "iframeSrc": "https://panlis.pl/",
+      "sidebarMessage": "<h3>Przygotowaliśmy 3 propozycje dopasowanych pop-upow.</h3> </br></br></p><ul><li><b>Opcja A: Zwiększenie sprzedaży nie irytując użytkownika.</b><br>Dlaczego działa: Użytkownik nie dostaje wyskakującego okienka, które chce zamknąć odruchowo, tylko dostaje subtelną opcję.</li></br><li><b>Opcja B: Zapis do newslettera.</b><br>Dlaczego działa: Imitując koszyk zachęca uzytkownika do skorzystania z dobrze zobrazowanej promocji.</li></br><li><b>Opcja C: Wyprzedaż ograniczona czasowo.</b><br>Dlaczego działa: Sama promocja łączy efekt FOMO z brakiem możliwości pominięcia decyzji stawiając jasne pytanie TAK lub NIE. ",
+      "salesPopup": {
+        "brand": "Panlis",
+        "title": "Puste ściany proszą się o historię",
+        "subtitle": "Zobacz, jak jeden plakat potrafi odmienić cały pokój",
+        "products": [
+          {
+            "id": 1,
+            "name": "PLAKAT YOU'RE SAFE",
+            "price": "99.00 zł",
+            "emoji": "",
+            "background": "url('https://panlis.pl/userdata/public/gfx/1027/PLAKAT-YOURE-SAFE.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name":  "PLAKAT ALE DUPCIA!",
+            "price": "99.00 zł",
+            "emoji": "",
+            "background": "url('https://panlis.pl/userdata/public/gfx/1237/PLAKAT-ZAPAROWANE-LUSTRO-Z-NAPISEM-ALE-DUPCIA-Pan-Lis.jpg') no-repeat center center / cover"
+          }
+        ]
+      },
+      "newsletterPopup": {
+        "title": "Zapisz się do newslettera",
+        "subtitle": "Te i inne produkty kupisz u nas taniej",
+        "note": "Dołącz do nas i <b> otrzymaj 10% </b>zniżki.",
+        "products": [
+          {
+            "id": 1,
+            "name": "PLAKAT KOT I DZIEWCZYNA, NORMALNA RODZINA",
+            "price": "99.00",
+            "background": "url('https://panlis.pl/userdata/public/gfx/05540212ae4abb0a51e7c4e8d2e9d907.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 2,
+            "name": "PLAKAT POWRÓT DO DOM",
+            "price": "99.00",
+            "background": "url('https://panlis.pl/userdata/public/gfx/1188/PLAKAT-POWROT-DO-DOMU-Pan-Lis.jpg') no-repeat center center / cover"
+          },
+          {
+            "id": 3,
+            "name": "PLAKAT ŚWIAT CI SPRZYJ",
+            "price": "99.00",
+            "background": "url('https://panlis.pl/environment/cache/images/productGfx_790_800_800/PLAKAT--SWIAT-CI-SPRZYJA-Pan-Lis.webp?overlay=1') no-repeat center center / cover"
+          },
+          {
+            "id": 4,
+            "name": "KALENDARZ 2026",
+            "price": "99.00",
+            "background": "url('https://panlis.pl/userdata/public/gfx/1255/KALENDARZ-NA-2026-ROK-FORMAT-A2-Pan-Lis.jpg') no-repeat center center / cover"
+          }
+        ]
+      },
+      "limitedPopup": {
+        "brand": "",
+        "titleLine1": "Czy chcesz zapłacić 89 zł zamiast 99 zł?",
+        "ctaLabel": "Zobacz zestaw",
+        "productImage": "https://panlis.pl/userdata/public/gfx/776/PLAKAT-marynistyczny-DUSZEK-BALTYKU.jpg",
+        "productName":"PLAKAT DUSZEK BAŁTYKU",
+        "newPrice":"89.00 zł",
+        "oldPrice":"99.00 zł",
         "durationHours": 4
       }
     }
-  ]
+]
